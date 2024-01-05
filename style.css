@@ -1,0 +1,60 @@
+*{
+    border: none;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/227/744/original/trendy-color-gradient-creative-background-vector.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+.display{
+    height: 250px;
+    background-color: white;
+    width: 500px;
+    margin: 0% auto;
+    position: relative;
+    top:150px;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+.timer{
+    font-size: 40px;
+    position: relative;
+    margin-left: 80px;
+    width: 500px;
+}
+
+button{
+    padding:15px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    margin:20px
+}
+.lap-time{
+    margin-top: 10px;
+    height: 140px;
+    background-color :#fff;
+    width: 45%;
+    margin-left: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 20px 10px 30px;
+    border: 1px solid grey;
+}
+
+@media(min-width:380px) and (max-width:920px){
+    body{
+        height: 1500px;
+    }
+    .display{
+        position: relative;
+        top:500px;
+    }
+}
